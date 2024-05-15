@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -38,6 +35,14 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* ====================================
