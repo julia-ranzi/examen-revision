@@ -1,0 +1,27 @@
+.box {
+  padding: 20px;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  font-size: 16px;
+}
+
+.box-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container-2 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.box-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-container-3 .box {
+  width: 320px;
+}
